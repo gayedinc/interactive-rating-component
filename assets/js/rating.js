@@ -27,9 +27,10 @@ thankContainer.classList.add('d-none');
 function handleSecondScreen() {
 
   if (!selectedRating) {
-    alert('Please provide feedback.');
+    alert('Please provide feedback.')
     return;
   }
+
   ratingContainer.classList.add('d-none');
   thankContainer.classList.add('d-block');
 }
