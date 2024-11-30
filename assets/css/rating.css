@@ -190,6 +190,17 @@ h6 {
   color: #262E38;
 }
 
+.warnTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #EE5454;
+  margin-top: 18px;
+}
+
 /* Desktop Start */
 
 @media (width > 768px) {
